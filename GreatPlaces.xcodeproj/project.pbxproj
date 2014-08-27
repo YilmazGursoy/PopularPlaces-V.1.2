@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20D614619A6C5C600F1438F /* HighScoreSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D20D614519A6C5C600F1438F /* HighScoreSong.mp3 */; };
+		D241965219A52C9300114B4D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D241965119A52C9300114B4D /* SettingViewController.m */; };
+		D241972019A6AE7300114B4D /* HighPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D241971F19A6AE7300114B4D /* HighPointsViewController.m */; };
+		D241972219A6B93000114B4D /* Profil.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D241972119A6B92F00114B4D /* Profil.JPG */; };
+		D241972419A6B9C100114B4D /* Profil1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D241972319A6B9C100114B4D /* Profil1.JPG */; };
+		D259CD73199FF3E8000987BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82B198EDBC800A932C9 /* Foundation.framework */; };
+		D259CD74199FF3E8000987BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82D198EDBC800A932C9 /* CoreGraphics.framework */; };
+		D259CD75199FF3E8000987BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82F198EDBC800A932C9 /* UIKit.framework */; };
+		D259CD77199FF3E8000987BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D259CD76199FF3E8000987BC /* CoreData.framework */; };
+		D259CD7D199FF3E8000987BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D259CD7B199FF3E8000987BC /* InfoPlist.strings */; };
+		D259CD7F199FF3E8000987BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D259CD7E199FF3E8000987BC /* main.m */; };
+		D259CD83199FF3E8000987BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D259CD82199FF3E8000987BC /* AppDelegate.m */; };
+		D259CD86199FF3E8000987BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D259CD84199FF3E8000987BC /* Main.storyboard */; };
+		D259CD89199FF3E8000987BC /* Yilmaz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D259CD87199FF3E8000987BC /* Yilmaz.xcdatamodeld */; };
+		D259CD8C199FF3E8000987BC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D259CD8B199FF3E8000987BC /* MasterViewController.m */; };
+		D259CD8F199FF3E8000987BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D259CD8E199FF3E8000987BC /* DetailViewController.m */; };
+		D259CD91199FF3E8000987BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259CD90199FF3E8000987BC /* Images.xcassets */; };
+		D259CD97199FF3E8000987BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E84A198EDBC800A932C9 /* XCTest.framework */; };
+		D259CD98199FF3E8000987BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82B198EDBC800A932C9 /* Foundation.framework */; };
+		D259CD99199FF3E8000987BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82F198EDBC800A932C9 /* UIKit.framework */; };
+		D259CD9A199FF3E8000987BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D259CD76199FF3E8000987BC /* CoreData.framework */; };
+		D259CDA2199FF3E8000987BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D259CDA0199FF3E8000987BC /* InfoPlist.strings */; };
+		D259CDA4199FF3E8000987BC /* YilmazTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D259CDA3199FF3E8000987BC /* YilmazTests.m */; };
+		D268E82C198EDBC800A932C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82B198EDBC800A932C9 /* Foundation.framework */; };
+		D268E82E198EDBC800A932C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82D198EDBC800A932C9 /* CoreGraphics.framework */; };
+		D268E830198EDBC800A932C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82F198EDBC800A932C9 /* UIKit.framework */; };
+		D268E836198EDBC800A932C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D268E834198EDBC800A932C9 /* InfoPlist.strings */; };
+		D268E838198EDBC800A932C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D268E837198EDBC800A932C9 /* main.m */; };
+		D268E83C198EDBC800A932C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D268E83B198EDBC800A932C9 /* AppDelegate.m */; };
+		D268E83F198EDBC800A932C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D268E83D198EDBC800A932C9 /* Main.storyboard */; };
+		D268E842198EDBC800A932C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D268E841198EDBC800A932C9 /* ViewController.m */; };
+		D268E844198EDBC800A932C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D268E843198EDBC800A932C9 /* Images.xcassets */; };
+		D268E84B198EDBC800A932C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E84A198EDBC800A932C9 /* XCTest.framework */; };
+		D268E84C198EDBC800A932C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82B198EDBC800A932C9 /* Foundation.framework */; };
+		D268E84D198EDBC800A932C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E82F198EDBC800A932C9 /* UIKit.framework */; };
+		D268E855198EDBC800A932C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D268E853198EDBC800A932C9 /* InfoPlist.strings */; };
+		D268E857198EDBC800A932C9 /* NewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D268E856198EDBC800A932C9 /* NewProjectTests.m */; };
+		D268E87E198EEA3B00A932C9 /* Places.m in Sources */ = {isa = PBXBuildFile; fileRef = D268E87D198EEA3B00A932C9 /* Places.m */; };
+		D268E880198EF0D700A932C9 /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D268E87F198EF0D700A932C9 /* BackGround.jpg */; };
+		D268E8A9198F166800A932C9 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D268E8A8198F166800A932C9 /* heart.png */; };
+		D268E8F419904DD200A932C9 /* BackGround.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D268E8F119904DD200A932C9 /* BackGround.mp3 */; };
+		D268E8F519904DD200A932C9 /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D268E8F219904DD200A932C9 /* GameOver.mp3 */; };
+		D268E8F619904DD200A932C9 /* AnotherSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D268E8F319904DD200A932C9 /* AnotherSound.mp3 */; };
+		D268E8FB1990ED7700A932C9 /* Next.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D268E8FA1990ED7700A932C9 /* Next.mp3 */; };
+		D268E93E1990F54D00A932C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268E93D1990F54D00A932C9 /* AVFoundation.framework */; };
+		D28864D219A4DBE30020CBD2 /* FirstScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28864D119A4DBE30020CBD2 /* FirstScreenViewController.m */; };
+		D28864D819A4DEA40020CBD2 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28864D719A4DEA40020CBD2 /* CreditsViewController.m */; };
+		D2DA054D199193C6000E0DC6 /* 1000 Year Old Yew Tree, West Wales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0503199193C6000E0DC6 /* 1000 Year Old Yew Tree, West Wales.jpg */; };
+		D2DA054E199193C6000E0DC6 /* Amsterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0504199193C6000E0DC6 /* Amsterdam.jpg */; };
+		D2DA054F199193C6000E0DC6 /* Antelope Canyon, Arizona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0505199193C6000E0DC6 /* Antelope Canyon, Arizona.jpg */; };
+		D2DA0550199193C6000E0DC6 /* Aogashima Volcano, Japan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0506199193C6000E0DC6 /* Aogashima Volcano, Japan.jpg */; };
+		D2DA0551199193C6000E0DC6 /* Awesome Flower Street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0507199193C6000E0DC6 /* Awesome Flower Street.jpg */; };
+		D2DA0552199193C6000E0DC6 /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0508199193C6000E0DC6 /* BackGround.jpg */; };
+		D2DA0553199193C6000E0DC6 /* Bahamas, Copperfield Bay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0509199193C6000E0DC6 /* Bahamas, Copperfield Bay.jpg */; };
+		D2DA0554199193C6000E0DC6 /* Bamboo Forest, Japan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA050A199193C6000E0DC6 /* Bamboo Forest, Japan.jpg */; };
+		D2DA0555199193C6000E0DC6 /* Barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA050B199193C6000E0DC6 /* Barcelona.jpg */; };
+		D2DA0556199193C6000E0DC6 /* Beachy Head – England.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA050C199193C6000E0DC6 /* Beachy Head – England.jpg */; };
+		D2DA0557199193C6000E0DC6 /* Bern Switzerland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA050D199193C6000E0DC6 /* Bern Switzerland.jpg */; };
+		D2DA0558199193C6000E0DC6 /* Castillo de La Cueva, Spain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA050E199193C6000E0DC6 /* Castillo de La Cueva, Spain.jpg */; };
+		D2DA0559199193C6000E0DC6 /* Central Park NYC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA050F199193C6000E0DC6 /* Central Park NYC.jpg */; };
+		D2DA055A199193C6000E0DC6 /* Cherry Blossoms in Bonn, Germany.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0510199193C6000E0DC6 /* Cherry Blossoms in Bonn, Germany.jpg */; };
+		D2DA055B199193C6000E0DC6 /* Chittorgarh Fort, India.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0511199193C6000E0DC6 /* Chittorgarh Fort, India.jpg */; };
+		D2DA055C199193C6000E0DC6 /* Cinque Terre, Rio Maggiore, Italy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0512199193C6000E0DC6 /* Cinque Terre, Rio Maggiore, Italy.jpg */; };
+		D2DA055D199193C6000E0DC6 /* Dubai Islands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0513199193C6000E0DC6 /* Dubai Islands.jpg */; };
+		D2DA055E199193C6000E0DC6 /* Fairy Pools, Isle of Skye, Scotland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0514199193C6000E0DC6 /* Fairy Pools, Isle of Skye, Scotland.jpg */; };
+		D2DA055F199193C6000E0DC6 /* Galapagos Islands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0515199193C6000E0DC6 /* Galapagos Islands.jpg */; };
+		D2DA0560199193C6000E0DC6 /* Galápagos Islands South America.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0516199193C6000E0DC6 /* Galápagos Islands South America.jpg */; };
+		D2DA0561199193C6000E0DC6 /* Giant’s Causeway, Ireland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0517199193C6000E0DC6 /* Giant’s Causeway, Ireland.jpg */; };
+		D2DA0562199193C6000E0DC6 /* Giza Pyramids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0518199193C6000E0DC6 /* Giza Pyramids.jpg */; };
+		D2DA0563199193C6000E0DC6 /* Glass Beach, California, USA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0519199193C6000E0DC6 /* Glass Beach, California, USA.jpg */; };
+		D2DA0564199193C6000E0DC6 /* Glow worm cave, New Zealand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA051A199193C6000E0DC6 /* Glow worm cave, New Zealand.jpg */; };
+		D2DA0565199193C6000E0DC6 /* Great Blue Hole, Belize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA051B199193C6000E0DC6 /* Great Blue Hole, Belize.jpg */; };
+		D2DA0566199193C6000E0DC6 /* Hiller lake, Western Australia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA051C199193C6000E0DC6 /* Hiller lake, Western Australia.jpg */; };
+		D2DA0567199193C6000E0DC6 /* Hitachi Seaside Park, Japan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA051D199193C6000E0DC6 /* Hitachi Seaside Park, Japan.jpg */; };
+		D2DA0568199193C6000E0DC6 /* Hotel La Montana Magica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA051E199193C6000E0DC6 /* Hotel La Montana Magica.jpg */; };
+		D2DA0569199193C6000E0DC6 /* Hvitserkur North Iceland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA051F199193C6000E0DC6 /* Hvitserkur North Iceland.jpg */; };
+		D2DA056A199193C6000E0DC6 /* Ice hotel at Sorrisniva,  Norway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0520199193C6000E0DC6 /* Ice hotel at Sorrisniva,  Norway.jpg */; };
+		D2DA056B199193C6000E0DC6 /* Magic Forest in Shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0521199193C6000E0DC6 /* Magic Forest in Shanghai.jpg */; };
+		D2DA056C199193C6000E0DC6 /* Mendenhall Ice Caves, Juneau, Alaska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0522199193C6000E0DC6 /* Mendenhall Ice Caves, Juneau, Alaska.jpg */; };
+		D2DA056D199193C6000E0DC6 /* Mexico City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0523199193C6000E0DC6 /* Mexico City.jpg */; };
+		D2DA056E199193C6000E0DC6 /* Mount Ararat eruption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0524199193C6000E0DC6 /* Mount Ararat eruption.jpg */; };
+		D2DA056F199193C6000E0DC6 /* Naica Mine, Mexico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0525199193C6000E0DC6 /* Naica Mine, Mexico.jpg */; };
+		D2DA0570199193C6000E0DC6 /* Namib Desert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0526199193C6000E0DC6 /* Namib Desert.jpg */; };
+		D2DA0571199193C6000E0DC6 /* Netherlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0527199193C6000E0DC6 /* Netherlands.jpg */; };
+		D2DA0572199193C6000E0DC6 /* Niagara Falls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0528199193C6000E0DC6 /* Niagara Falls.jpg */; };
+		D2DA0573199193C6000E0DC6 /* Pamukkale, Turkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0529199193C6000E0DC6 /* Pamukkale, Turkey.jpg */; };
+		D2DA0574199193C6000E0DC6 /* Panjin Red Beach, China.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA052A199193C6000E0DC6 /* Panjin Red Beach, China.jpg */; };
+		D2DA0575199193C6000E0DC6 /* Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA052B199193C6000E0DC6 /* Paris.jpg */; };
+		D2DA0576199193C6000E0DC6 /* Petra, Jordan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA052C199193C6000E0DC6 /* Petra, Jordan.jpg */; };
+		D2DA0577199193C6000E0DC6 /* Piano Bridge,China.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA052D199193C6000E0DC6 /* Piano Bridge,China.jpg */; };
+		D2DA0578199193C6000E0DC6 /* Poland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA052E199193C6000E0DC6 /* Poland.jpg */; };
+		D2DA0579199193C6000E0DC6 /* Red Beach, Panjin, China.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA052F199193C6000E0DC6 /* Red Beach, Panjin, China.jpg */; };
+		D2DA057A199193C6000E0DC6 /* Rio de Janeiro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0530199193C6000E0DC6 /* Rio de Janeiro.jpg */; };
+		D2DA057B199193C6000E0DC6 /* Ruby Falls, Chattanooga, Tennessee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0531199193C6000E0DC6 /* Ruby Falls, Chattanooga, Tennessee.jpg */; };
+		D2DA057C199193C6000E0DC6 /* San Francisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0532199193C6000E0DC6 /* San Francisco.jpg */; };
+		D2DA057D199193C6000E0DC6 /* Santorini, Greece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0533199193C6000E0DC6 /* Santorini, Greece.jpg */; };
+		D2DA057E199193C6000E0DC6 /* Sea Cave, Malta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0534199193C6000E0DC6 /* Sea Cave, Malta.jpg */; };
+		D2DA057F199193C6000E0DC6 /* Sea Cliffs, Etretat, France.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0535199193C6000E0DC6 /* Sea Cliffs, Etretat, France.jpg */; };
+		D2DA0580199193C6000E0DC6 /* Shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0536199193C6000E0DC6 /* Shanghai.jpg */; };
+		D2DA0581199193C6000E0DC6 /* Shifen Waterfall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0537199193C6000E0DC6 /* Shifen Waterfall.jpg */; };
+		D2DA0582199193C6000E0DC6 /* South Africa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0538199193C6000E0DC6 /* South Africa.jpg */; };
+		D2DA0583199193C6000E0DC6 /* Split Pinnacle – Hunan China.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0539199193C6000E0DC6 /* Split Pinnacle – Hunan China.jpg */; };
+		D2DA0584199193C6000E0DC6 /* St. Lucia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA053A199193C6000E0DC6 /* St. Lucia.jpg */; };
+		D2DA0585199193C6000E0DC6 /* Stairway to Heaven, Iceland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA053B199193C6000E0DC6 /* Stairway to Heaven, Iceland.jpg */; };
+		D2DA0586199193C6000E0DC6 /* Taj Mahal, Agra, India.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA053C199193C6000E0DC6 /* Taj Mahal, Agra, India.jpg */; };
+		D2DA0587199193C6000E0DC6 /* The cliffs of Etretat, France.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA053D199193C6000E0DC6 /* The cliffs of Etretat, France.jpg */; };
+		D2DA0588199193C6000E0DC6 /* Tulip Flower Fields in Netherlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA053E199193C6000E0DC6 /* Tulip Flower Fields in Netherlands.jpg */; };
+		D2DA0589199193C6000E0DC6 /* Tuscany, Italy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA053F199193C6000E0DC6 /* Tuscany, Italy.jpg */; };
+		D2DA058A199193C6000E0DC6 /* Unknown-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0540199193C6000E0DC6 /* Unknown-2.jpg */; };
+		D2DA058B199193C6000E0DC6 /* Valley of Ten Peaks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0541199193C6000E0DC6 /* Valley of Ten Peaks.jpg */; };
+		D2DA058C199193C6000E0DC6 /* Vatican City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0542199193C6000E0DC6 /* Vatican City.jpg */; };
+		D2DA058D199193C6000E0DC6 /* Venice, Italy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0543199193C6000E0DC6 /* Venice, Italy.jpg */; };
+		D2DA058E199193C6000E0DC6 /* Vietnam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0544199193C6000E0DC6 /* Vietnam.jpg */; };
+		D2DA058F199193C6000E0DC6 /* Wind Cathedral Namibia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0545199193C6000E0DC6 /* Wind Cathedral Namibia.jpg */; };
+		D2DA0590199193C6000E0DC6 /* Yellowstone National Park, Wyoming, USA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0546199193C6000E0DC6 /* Yellowstone National Park, Wyoming, USA.jpg */; };
+		D2DA0591199193C6000E0DC6 /* Yosemite National Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0547199193C6000E0DC6 /* Yosemite National Park.jpg */; };
+		D2DA0592199193C6000E0DC6 /* Big Island, Hawaii, USA.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0548199193C6000E0DC6 /* Big Island, Hawaii, USA.png */; };
+		D2DA0593199193C6000E0DC6 /* Fingal’s Cave, Scotland.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0549199193C6000E0DC6 /* Fingal’s Cave, Scotland.png */; };
+		D2DA0594199193C6000E0DC6 /* Ha Long Bay, Vietnam.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA054A199193C6000E0DC6 /* Ha Long Bay, Vietnam.png */; };
+		D2DA0595199193C6000E0DC6 /* Neuschwanstein Castle, Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA054B199193C6000E0DC6 /* Neuschwanstein Castle, Germany.png */; };
+		D2DA0596199193C6000E0DC6 /* Salar de Uyuni, Bolivia.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA054C199193C6000E0DC6 /* Salar de Uyuni, Bolivia.png */; };
+		D2DA0598199194A8000E0DC6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA0597199194A8000E0DC6 /* star.png */; };
+		D2DA059A1991960A000E0DC6 /* Pass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2DA05991991960A000E0DC6 /* Pass.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D259CD9B199FF3E8000987BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D268E820198EDBC800A932C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D259CD71199FF3E8000987BC;
+			remoteInfo = Yilmaz;
+		};
+		D268E84E198EDBC800A932C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D268E820198EDBC800A932C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D268E827198EDBC800A932C9;
+			remoteInfo = NewProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D20D614519A6C5C600F1438F /* HighScoreSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HighScoreSong.mp3; sourceTree = "<group>"; };
+		D241965019A52C9300114B4D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D241965119A52C9300114B4D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D241971E19A6AE7300114B4D /* HighPointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighPointsViewController.h; sourceTree = "<group>"; };
+		D241971F19A6AE7300114B4D /* HighPointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighPointsViewController.m; sourceTree = "<group>"; };
+		D241972119A6B92F00114B4D /* Profil.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profil.JPG; sourceTree = "<group>"; };
+		D241972319A6B9C100114B4D /* Profil1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profil1.JPG; sourceTree = "<group>"; };
+		D259CD72199FF3E8000987BC /* Yilmaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yilmaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D259CD76199FF3E8000987BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D259CD7A199FF3E8000987BC /* Yilmaz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yilmaz-Info.plist"; sourceTree = "<group>"; };
+		D259CD7C199FF3E8000987BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D259CD7E199FF3E8000987BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D259CD80199FF3E8000987BC /* Yilmaz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yilmaz-Prefix.pch"; sourceTree = "<group>"; };
+		D259CD81199FF3E8000987BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D259CD82199FF3E8000987BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D259CD85199FF3E8000987BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D259CD88199FF3E8000987BC /* Yilmaz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yilmaz.xcdatamodel; sourceTree = "<group>"; };
+		D259CD8A199FF3E8000987BC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D259CD8B199FF3E8000987BC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D259CD8D199FF3E8000987BC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D259CD8E199FF3E8000987BC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D259CD90199FF3E8000987BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D259CD96199FF3E8000987BC /* YilmazTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YilmazTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D259CD9F199FF3E8000987BC /* YilmazTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YilmazTests-Info.plist"; sourceTree = "<group>"; };
+		D259CDA1199FF3E8000987BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D259CDA3199FF3E8000987BC /* YilmazTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YilmazTests.m; sourceTree = "<group>"; };
+		D268E828198EDBC800A932C9 /* GreatPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D268E82B198EDBC800A932C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D268E82D198EDBC800A932C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D268E82F198EDBC800A932C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D268E833198EDBC800A932C9 /* GreatPlaces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreatPlaces-Info.plist"; sourceTree = "<group>"; };
+		D268E835198EDBC800A932C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D268E837198EDBC800A932C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D268E839198EDBC800A932C9 /* GreatPlaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreatPlaces-Prefix.pch"; sourceTree = "<group>"; };
+		D268E83A198EDBC800A932C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D268E83B198EDBC800A932C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D268E83E198EDBC800A932C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D268E840198EDBC800A932C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D268E841198EDBC800A932C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D268E843198EDBC800A932C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D268E849198EDBC800A932C9 /* GreatPlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatPlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D268E84A198EDBC800A932C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D268E852198EDBC800A932C9 /* GreatPlacesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreatPlacesTests-Info.plist"; sourceTree = "<group>"; };
+		D268E854198EDBC800A932C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D268E856198EDBC800A932C9 /* NewProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewProjectTests.m; sourceTree = "<group>"; };
+		D268E87C198EEA3B00A932C9 /* Places.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Places.h; sourceTree = "<group>"; };
+		D268E87D198EEA3B00A932C9 /* Places.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Places.m; sourceTree = "<group>"; };
+		D268E87F198EF0D700A932C9 /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
+		D268E8A8198F166800A932C9 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		D268E8F119904DD200A932C9 /* BackGround.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackGround.mp3; sourceTree = "<group>"; };
+		D268E8F219904DD200A932C9 /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		D268E8F319904DD200A932C9 /* AnotherSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AnotherSound.mp3; sourceTree = "<group>"; };
+		D268E8FA1990ED7700A932C9 /* Next.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Next.mp3; sourceTree = "<group>"; };
+		D268E93D1990F54D00A932C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D28864D019A4DBE30020CBD2 /* FirstScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstScreenViewController.h; sourceTree = "<group>"; };
+		D28864D119A4DBE30020CBD2 /* FirstScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstScreenViewController.m; sourceTree = "<group>"; };
+		D28864D619A4DEA40020CBD2 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		D28864D719A4DEA40020CBD2 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		D2DA0503199193C6000E0DC6 /* 1000 Year Old Yew Tree, West Wales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1000 Year Old Yew Tree, West Wales.jpg"; sourceTree = "<group>"; };
+		D2DA0504199193C6000E0DC6 /* Amsterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Amsterdam.jpg; sourceTree = "<group>"; };
+		D2DA0505199193C6000E0DC6 /* Antelope Canyon, Arizona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antelope Canyon, Arizona.jpg"; sourceTree = "<group>"; };
+		D2DA0506199193C6000E0DC6 /* Aogashima Volcano, Japan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aogashima Volcano, Japan.jpg"; sourceTree = "<group>"; };
+		D2DA0507199193C6000E0DC6 /* Awesome Flower Street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Awesome Flower Street.jpg"; sourceTree = "<group>"; };
+		D2DA0508199193C6000E0DC6 /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
+		D2DA0509199193C6000E0DC6 /* Bahamas, Copperfield Bay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bahamas, Copperfield Bay.jpg"; sourceTree = "<group>"; };
+		D2DA050A199193C6000E0DC6 /* Bamboo Forest, Japan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bamboo Forest, Japan.jpg"; sourceTree = "<group>"; };
+		D2DA050B199193C6000E0DC6 /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barcelona.jpg; sourceTree = "<group>"; };
+		D2DA050C199193C6000E0DC6 /* Beachy Head – England.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Beachy Head – England.jpg"; sourceTree = "<group>"; };
+		D2DA050D199193C6000E0DC6 /* Bern Switzerland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bern Switzerland.jpg"; sourceTree = "<group>"; };
+		D2DA050E199193C6000E0DC6 /* Castillo de La Cueva, Spain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Castillo de La Cueva, Spain.jpg"; sourceTree = "<group>"; };
+		D2DA050F199193C6000E0DC6 /* Central Park NYC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Central Park NYC.jpg"; sourceTree = "<group>"; };
+		D2DA0510199193C6000E0DC6 /* Cherry Blossoms in Bonn, Germany.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cherry Blossoms in Bonn, Germany.jpg"; sourceTree = "<group>"; };
+		D2DA0511199193C6000E0DC6 /* Chittorgarh Fort, India.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chittorgarh Fort, India.jpg"; sourceTree = "<group>"; };
+		D2DA0512199193C6000E0DC6 /* Cinque Terre, Rio Maggiore, Italy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cinque Terre, Rio Maggiore, Italy.jpg"; sourceTree = "<group>"; };
+		D2DA0513199193C6000E0DC6 /* Dubai Islands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dubai Islands.jpg"; sourceTree = "<group>"; };
+		D2DA0514199193C6000E0DC6 /* Fairy Pools, Isle of Skye, Scotland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fairy Pools, Isle of Skye, Scotland.jpg"; sourceTree = "<group>"; };
+		D2DA0515199193C6000E0DC6 /* Galapagos Islands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Galapagos Islands.jpg"; sourceTree = "<group>"; };
+		D2DA0516199193C6000E0DC6 /* Galápagos Islands South America.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Galápagos Islands South America.jpg"; sourceTree = "<group>"; };
+		D2DA0517199193C6000E0DC6 /* Giant’s Causeway, Ireland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Giant’s Causeway, Ireland.jpg"; sourceTree = "<group>"; };
+		D2DA0518199193C6000E0DC6 /* Giza Pyramids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Giza Pyramids.jpg"; sourceTree = "<group>"; };
+		D2DA0519199193C6000E0DC6 /* Glass Beach, California, USA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glass Beach, California, USA.jpg"; sourceTree = "<group>"; };
+		D2DA051A199193C6000E0DC6 /* Glow worm cave, New Zealand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glow worm cave, New Zealand.jpg"; sourceTree = "<group>"; };
+		D2DA051B199193C6000E0DC6 /* Great Blue Hole, Belize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Great Blue Hole, Belize.jpg"; sourceTree = "<group>"; };
+		D2DA051C199193C6000E0DC6 /* Hiller lake, Western Australia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hiller lake, Western Australia.jpg"; sourceTree = "<group>"; };
+		D2DA051D199193C6000E0DC6 /* Hitachi Seaside Park, Japan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hitachi Seaside Park, Japan.jpg"; sourceTree = "<group>"; };
+		D2DA051E199193C6000E0DC6 /* Hotel La Montana Magica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hotel La Montana Magica.jpg"; sourceTree = "<group>"; };
+		D2DA051F199193C6000E0DC6 /* Hvitserkur North Iceland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hvitserkur North Iceland.jpg"; sourceTree = "<group>"; };
+		D2DA0520199193C6000E0DC6 /* Ice hotel at Sorrisniva,  Norway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ice hotel at Sorrisniva,  Norway.jpg"; sourceTree = "<group>"; };
+		D2DA0521199193C6000E0DC6 /* Magic Forest in Shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Magic Forest in Shanghai.jpg"; sourceTree = "<group>"; };
+		D2DA0522199193C6000E0DC6 /* Mendenhall Ice Caves, Juneau, Alaska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mendenhall Ice Caves, Juneau, Alaska.jpg"; sourceTree = "<group>"; };
+		D2DA0523199193C6000E0DC6 /* Mexico City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mexico City.jpg"; sourceTree = "<group>"; };
+		D2DA0524199193C6000E0DC6 /* Mount Ararat eruption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mount Ararat eruption.jpg"; sourceTree = "<group>"; };
+		D2DA0525199193C6000E0DC6 /* Naica Mine, Mexico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Naica Mine, Mexico.jpg"; sourceTree = "<group>"; };
+		D2DA0526199193C6000E0DC6 /* Namib Desert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Namib Desert.jpg"; sourceTree = "<group>"; };
+		D2DA0527199193C6000E0DC6 /* Netherlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Netherlands.jpg; sourceTree = "<group>"; };
+		D2DA0528199193C6000E0DC6 /* Niagara Falls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Niagara Falls.jpg"; sourceTree = "<group>"; };
+		D2DA0529199193C6000E0DC6 /* Pamukkale, Turkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pamukkale, Turkey.jpg"; sourceTree = "<group>"; };
+		D2DA052A199193C6000E0DC6 /* Panjin Red Beach, China.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Panjin Red Beach, China.jpg"; sourceTree = "<group>"; };
+		D2DA052B199193C6000E0DC6 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paris.jpg; sourceTree = "<group>"; };
+		D2DA052C199193C6000E0DC6 /* Petra, Jordan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Petra, Jordan.jpg"; sourceTree = "<group>"; };
+		D2DA052D199193C6000E0DC6 /* Piano Bridge,China.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Piano Bridge,China.jpg"; sourceTree = "<group>"; };
+		D2DA052E199193C6000E0DC6 /* Poland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poland.jpg; sourceTree = "<group>"; };
+		D2DA052F199193C6000E0DC6 /* Red Beach, Panjin, China.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Red Beach, Panjin, China.jpg"; sourceTree = "<group>"; };
+		D2DA0530199193C6000E0DC6 /* Rio de Janeiro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rio de Janeiro.jpg"; sourceTree = "<group>"; };
+		D2DA0531199193C6000E0DC6 /* Ruby Falls, Chattanooga, Tennessee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ruby Falls, Chattanooga, Tennessee.jpg"; sourceTree = "<group>"; };
+		D2DA0532199193C6000E0DC6 /* San Francisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "San Francisco.jpg"; sourceTree = "<group>"; };
+		D2DA0533199193C6000E0DC6 /* Santorini, Greece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Santorini, Greece.jpg"; sourceTree = "<group>"; };
+		D2DA0534199193C6000E0DC6 /* Sea Cave, Malta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sea Cave, Malta.jpg"; sourceTree = "<group>"; };
+		D2DA0535199193C6000E0DC6 /* Sea Cliffs, Etretat, France.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sea Cliffs, Etretat, France.jpg"; sourceTree = "<group>"; };
+		D2DA0536199193C6000E0DC6 /* Shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shanghai.jpg; sourceTree = "<group>"; };
+		D2DA0537199193C6000E0DC6 /* Shifen Waterfall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shifen Waterfall.jpg"; sourceTree = "<group>"; };
+		D2DA0538199193C6000E0DC6 /* South Africa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "South Africa.jpg"; sourceTree = "<group>"; };
+		D2DA0539199193C6000E0DC6 /* Split Pinnacle – Hunan China.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Split Pinnacle – Hunan China.jpg"; sourceTree = "<group>"; };
+		D2DA053A199193C6000E0DC6 /* St. Lucia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St. Lucia.jpg"; sourceTree = "<group>"; };
+		D2DA053B199193C6000E0DC6 /* Stairway to Heaven, Iceland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stairway to Heaven, Iceland.jpg"; sourceTree = "<group>"; };
+		D2DA053C199193C6000E0DC6 /* Taj Mahal, Agra, India.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taj Mahal, Agra, India.jpg"; sourceTree = "<group>"; };
+		D2DA053D199193C6000E0DC6 /* The cliffs of Etretat, France.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The cliffs of Etretat, France.jpg"; sourceTree = "<group>"; };
+		D2DA053E199193C6000E0DC6 /* Tulip Flower Fields in Netherlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tulip Flower Fields in Netherlands.jpg"; sourceTree = "<group>"; };
+		D2DA053F199193C6000E0DC6 /* Tuscany, Italy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tuscany, Italy.jpg"; sourceTree = "<group>"; };
+		D2DA0540199193C6000E0DC6 /* Unknown-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-2.jpg"; sourceTree = "<group>"; };
+		D2DA0541199193C6000E0DC6 /* Valley of Ten Peaks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valley of Ten Peaks.jpg"; sourceTree = "<group>"; };
+		D2DA0542199193C6000E0DC6 /* Vatican City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vatican City.jpg"; sourceTree = "<group>"; };
+		D2DA0543199193C6000E0DC6 /* Venice, Italy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Venice, Italy.jpg"; sourceTree = "<group>"; };
+		D2DA0544199193C6000E0DC6 /* Vietnam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vietnam.jpg; sourceTree = "<group>"; };
+		D2DA0545199193C6000E0DC6 /* Wind Cathedral Namibia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wind Cathedral Namibia.jpg"; sourceTree = "<group>"; };
+		D2DA0546199193C6000E0DC6 /* Yellowstone National Park, Wyoming, USA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yellowstone National Park, Wyoming, USA.jpg"; sourceTree = "<group>"; };
+		D2DA0547199193C6000E0DC6 /* Yosemite National Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yosemite National Park.jpg"; sourceTree = "<group>"; };
+		D2DA0548199193C6000E0DC6 /* Big Island, Hawaii, USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Big Island, Hawaii, USA.png"; sourceTree = "<group>"; };
+		D2DA0549199193C6000E0DC6 /* Fingal’s Cave, Scotland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fingal’s Cave, Scotland.png"; sourceTree = "<group>"; };
+		D2DA054A199193C6000E0DC6 /* Ha Long Bay, Vietnam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ha Long Bay, Vietnam.png"; sourceTree = "<group>"; };
+		D2DA054B199193C6000E0DC6 /* Neuschwanstein Castle, Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Neuschwanstein Castle, Germany.png"; sourceTree = "<group>"; };
+		D2DA054C199193C6000E0DC6 /* Salar de Uyuni, Bolivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Salar de Uyuni, Bolivia.png"; sourceTree = "<group>"; };
+		D2DA0597199194A8000E0DC6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		D2DA05991991960A000E0DC6 /* Pass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pass.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D259CD6F199FF3E8000987BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259CD74199FF3E8000987BC /* CoreGraphics.framework in Frameworks */,
+				D259CD77199FF3E8000987BC /* CoreData.framework in Frameworks */,
+				D259CD75199FF3E8000987BC /* UIKit.framework in Frameworks */,
+				D259CD73199FF3E8000987BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D259CD93199FF3E8000987BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259CD97199FF3E8000987BC /* XCTest.framework in Frameworks */,
+				D259CD9A199FF3E8000987BC /* CoreData.framework in Frameworks */,
+				D259CD99199FF3E8000987BC /* UIKit.framework in Frameworks */,
+				D259CD98199FF3E8000987BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D268E825198EDBC800A932C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268E93E1990F54D00A932C9 /* AVFoundation.framework in Frameworks */,
+				D268E82E198EDBC800A932C9 /* CoreGraphics.framework in Frameworks */,
+				D268E830198EDBC800A932C9 /* UIKit.framework in Frameworks */,
+				D268E82C198EDBC800A932C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D268E846198EDBC800A932C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268E84B198EDBC800A932C9 /* XCTest.framework in Frameworks */,
+				D268E84D198EDBC800A932C9 /* UIKit.framework in Frameworks */,
+				D268E84C198EDBC800A932C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D259CD78199FF3E8000987BC /* Yilmaz */ = {
+			isa = PBXGroup;
+			children = (
+				D259CD81199FF3E8000987BC /* AppDelegate.h */,
+				D259CD82199FF3E8000987BC /* AppDelegate.m */,
+				D259CD84199FF3E8000987BC /* Main.storyboard */,
+				D259CD8A199FF3E8000987BC /* MasterViewController.h */,
+				D259CD8B199FF3E8000987BC /* MasterViewController.m */,
+				D259CD8D199FF3E8000987BC /* DetailViewController.h */,
+				D259CD8E199FF3E8000987BC /* DetailViewController.m */,
+				D259CD90199FF3E8000987BC /* Images.xcassets */,
+				D259CD87199FF3E8000987BC /* Yilmaz.xcdatamodeld */,
+				D259CD79199FF3E8000987BC /* Supporting Files */,
+			);
+			path = Yilmaz;
+			sourceTree = "<group>";
+		};
+		D259CD79199FF3E8000987BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D259CD7A199FF3E8000987BC /* Yilmaz-Info.plist */,
+				D259CD7B199FF3E8000987BC /* InfoPlist.strings */,
+				D259CD7E199FF3E8000987BC /* main.m */,
+				D259CD80199FF3E8000987BC /* Yilmaz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D259CD9D199FF3E8000987BC /* YilmazTests */ = {
+			isa = PBXGroup;
+			children = (
+				D259CDA3199FF3E8000987BC /* YilmazTests.m */,
+				D259CD9E199FF3E8000987BC /* Supporting Files */,
+			);
+			path = YilmazTests;
+			sourceTree = "<group>";
+		};
+		D259CD9E199FF3E8000987BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D259CD9F199FF3E8000987BC /* YilmazTests-Info.plist */,
+				D259CDA0199FF3E8000987BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D268E81F198EDBC800A932C9 = {
+			isa = PBXGroup;
+			children = (
+				D268E831198EDBC800A932C9 /* NewProject */,
+				D268E850198EDBC800A932C9 /* NewProjectTests */,
+				D259CD78199FF3E8000987BC /* Yilmaz */,
+				D259CD9D199FF3E8000987BC /* YilmazTests */,
+				D268E82A198EDBC800A932C9 /* Frameworks */,
+				D268E829198EDBC800A932C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D268E829198EDBC800A932C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D268E828198EDBC800A932C9 /* GreatPlaces.app */,
+				D268E849198EDBC800A932C9 /* GreatPlacesTests.xctest */,
+				D259CD72199FF3E8000987BC /* Yilmaz.app */,
+				D259CD96199FF3E8000987BC /* YilmazTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D268E82A198EDBC800A932C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D268E93D1990F54D00A932C9 /* AVFoundation.framework */,
+				D268E82B198EDBC800A932C9 /* Foundation.framework */,
+				D268E82D198EDBC800A932C9 /* CoreGraphics.framework */,
+				D268E82F198EDBC800A932C9 /* UIKit.framework */,
+				D268E84A198EDBC800A932C9 /* XCTest.framework */,
+				D259CD76199FF3E8000987BC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D268E831198EDBC800A932C9 /* NewProject */ = {
+			isa = PBXGroup;
+			children = (
+				D268E83A198EDBC800A932C9 /* AppDelegate.h */,
+				D268E83B198EDBC800A932C9 /* AppDelegate.m */,
+				D268E83D198EDBC800A932C9 /* Main.storyboard */,
+				D241971E19A6AE7300114B4D /* HighPointsViewController.h */,
+				D241971F19A6AE7300114B4D /* HighPointsViewController.m */,
+				D241965019A52C9300114B4D /* SettingViewController.h */,
+				D241965119A52C9300114B4D /* SettingViewController.m */,
+				D28864D619A4DEA40020CBD2 /* CreditsViewController.h */,
+				D28864D719A4DEA40020CBD2 /* CreditsViewController.m */,
+				D28864D019A4DBE30020CBD2 /* FirstScreenViewController.h */,
+				D28864D119A4DBE30020CBD2 /* FirstScreenViewController.m */,
+				D268E840198EDBC800A932C9 /* ViewController.h */,
+				D268E841198EDBC800A932C9 /* ViewController.m */,
+				D268E87C198EEA3B00A932C9 /* Places.h */,
+				D268E87D198EEA3B00A932C9 /* Places.m */,
+				D268E87F198EF0D700A932C9 /* BackGround.jpg */,
+				D268E843198EDBC800A932C9 /* Images.xcassets */,
+				D2DA042B19913555000E0DC6 /* ViewImage */,
+				D268E8F719904DD700A932C9 /* Music */,
+				D268E881198EF13200A932C9 /* Images */,
+				D268E832198EDBC800A932C9 /* Supporting Files */,
+			);
+			path = NewProject;
+			sourceTree = "<group>";
+		};
+		D268E832198EDBC800A932C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D268E833198EDBC800A932C9 /* GreatPlaces-Info.plist */,
+				D268E834198EDBC800A932C9 /* InfoPlist.strings */,
+				D268E837198EDBC800A932C9 /* main.m */,
+				D268E839198EDBC800A932C9 /* GreatPlaces-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D268E850198EDBC800A932C9 /* NewProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D268E856198EDBC800A932C9 /* NewProjectTests.m */,
+				D268E851198EDBC800A932C9 /* Supporting Files */,
+			);
+			path = NewProjectTests;
+			sourceTree = "<group>";
+		};
+		D268E851198EDBC800A932C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D268E852198EDBC800A932C9 /* GreatPlacesTests-Info.plist */,
+				D268E853198EDBC800A932C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D268E881198EF13200A932C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D241972119A6B92F00114B4D /* Profil.JPG */,
+				D241972319A6B9C100114B4D /* Profil1.JPG */,
+				D2DA0503199193C6000E0DC6 /* 1000 Year Old Yew Tree, West Wales.jpg */,
+				D2DA0504199193C6000E0DC6 /* Amsterdam.jpg */,
+				D2DA0505199193C6000E0DC6 /* Antelope Canyon, Arizona.jpg */,
+				D2DA0506199193C6000E0DC6 /* Aogashima Volcano, Japan.jpg */,
+				D2DA0507199193C6000E0DC6 /* Awesome Flower Street.jpg */,
+				D2DA0508199193C6000E0DC6 /* BackGround.jpg */,
+				D2DA0509199193C6000E0DC6 /* Bahamas, Copperfield Bay.jpg */,
+				D2DA050A199193C6000E0DC6 /* Bamboo Forest, Japan.jpg */,
+				D2DA050B199193C6000E0DC6 /* Barcelona.jpg */,
+				D2DA050C199193C6000E0DC6 /* Beachy Head – England.jpg */,
+				D2DA050D199193C6000E0DC6 /* Bern Switzerland.jpg */,
+				D2DA050E199193C6000E0DC6 /* Castillo de La Cueva, Spain.jpg */,
+				D2DA050F199193C6000E0DC6 /* Central Park NYC.jpg */,
+				D2DA0510199193C6000E0DC6 /* Cherry Blossoms in Bonn, Germany.jpg */,
+				D2DA0511199193C6000E0DC6 /* Chittorgarh Fort, India.jpg */,
+				D2DA0512199193C6000E0DC6 /* Cinque Terre, Rio Maggiore, Italy.jpg */,
+				D2DA0513199193C6000E0DC6 /* Dubai Islands.jpg */,
+				D2DA0514199193C6000E0DC6 /* Fairy Pools, Isle of Skye, Scotland.jpg */,
+				D2DA0515199193C6000E0DC6 /* Galapagos Islands.jpg */,
+				D2DA0516199193C6000E0DC6 /* Galápagos Islands South America.jpg */,
+				D2DA0517199193C6000E0DC6 /* Giant’s Causeway, Ireland.jpg */,
+				D2DA0518199193C6000E0DC6 /* Giza Pyramids.jpg */,
+				D2DA0519199193C6000E0DC6 /* Glass Beach, California, USA.jpg */,
+				D2DA051A199193C6000E0DC6 /* Glow worm cave, New Zealand.jpg */,
+				D2DA051B199193C6000E0DC6 /* Great Blue Hole, Belize.jpg */,
+				D2DA051C199193C6000E0DC6 /* Hiller lake, Western Australia.jpg */,
+				D2DA051D199193C6000E0DC6 /* Hitachi Seaside Park, Japan.jpg */,
+				D2DA051E199193C6000E0DC6 /* Hotel La Montana Magica.jpg */,
+				D2DA051F199193C6000E0DC6 /* Hvitserkur North Iceland.jpg */,
+				D2DA0520199193C6000E0DC6 /* Ice hotel at Sorrisniva,  Norway.jpg */,
+				D2DA0521199193C6000E0DC6 /* Magic Forest in Shanghai.jpg */,
+				D2DA0522199193C6000E0DC6 /* Mendenhall Ice Caves, Juneau, Alaska.jpg */,
+				D2DA0523199193C6000E0DC6 /* Mexico City.jpg */,
+				D2DA0524199193C6000E0DC6 /* Mount Ararat eruption.jpg */,
+				D2DA0525199193C6000E0DC6 /* Naica Mine, Mexico.jpg */,
+				D2DA0526199193C6000E0DC6 /* Namib Desert.jpg */,
+				D2DA0527199193C6000E0DC6 /* Netherlands.jpg */,
+				D2DA0528199193C6000E0DC6 /* Niagara Falls.jpg */,
+				D2DA0529199193C6000E0DC6 /* Pamukkale, Turkey.jpg */,
+				D2DA052A199193C6000E0DC6 /* Panjin Red Beach, China.jpg */,
+				D2DA052B199193C6000E0DC6 /* Paris.jpg */,
+				D2DA052C199193C6000E0DC6 /* Petra, Jordan.jpg */,
+				D2DA052D199193C6000E0DC6 /* Piano Bridge,China.jpg */,
+				D2DA052E199193C6000E0DC6 /* Poland.jpg */,
+				D2DA052F199193C6000E0DC6 /* Red Beach, Panjin, China.jpg */,
+				D2DA0530199193C6000E0DC6 /* Rio de Janeiro.jpg */,
+				D2DA0531199193C6000E0DC6 /* Ruby Falls, Chattanooga, Tennessee.jpg */,
+				D2DA0532199193C6000E0DC6 /* San Francisco.jpg */,
+				D2DA0533199193C6000E0DC6 /* Santorini, Greece.jpg */,
+				D2DA0534199193C6000E0DC6 /* Sea Cave, Malta.jpg */,
+				D2DA0535199193C6000E0DC6 /* Sea Cliffs, Etretat, France.jpg */,
+				D2DA0536199193C6000E0DC6 /* Shanghai.jpg */,
+				D2DA0537199193C6000E0DC6 /* Shifen Waterfall.jpg */,
+				D2DA0538199193C6000E0DC6 /* South Africa.jpg */,
+				D2DA0539199193C6000E0DC6 /* Split Pinnacle – Hunan China.jpg */,
+				D2DA053A199193C6000E0DC6 /* St. Lucia.jpg */,
+				D2DA053B199193C6000E0DC6 /* Stairway to Heaven, Iceland.jpg */,
+				D2DA053C199193C6000E0DC6 /* Taj Mahal, Agra, India.jpg */,
+				D2DA053D199193C6000E0DC6 /* The cliffs of Etretat, France.jpg */,
+				D2DA053E199193C6000E0DC6 /* Tulip Flower Fields in Netherlands.jpg */,
+				D2DA053F199193C6000E0DC6 /* Tuscany, Italy.jpg */,
+				D2DA0540199193C6000E0DC6 /* Unknown-2.jpg */,
+				D2DA0541199193C6000E0DC6 /* Valley of Ten Peaks.jpg */,
+				D2DA0542199193C6000E0DC6 /* Vatican City.jpg */,
+				D2DA0543199193C6000E0DC6 /* Venice, Italy.jpg */,
+				D2DA0544199193C6000E0DC6 /* Vietnam.jpg */,
+				D2DA0545199193C6000E0DC6 /* Wind Cathedral Namibia.jpg */,
+				D2DA0546199193C6000E0DC6 /* Yellowstone National Park, Wyoming, USA.jpg */,
+				D2DA0547199193C6000E0DC6 /* Yosemite National Park.jpg */,
+				D2DA0548199193C6000E0DC6 /* Big Island, Hawaii, USA.png */,
+				D2DA0549199193C6000E0DC6 /* Fingal’s Cave, Scotland.png */,
+				D2DA054A199193C6000E0DC6 /* Ha Long Bay, Vietnam.png */,
+				D2DA054B199193C6000E0DC6 /* Neuschwanstein Castle, Germany.png */,
+				D2DA054C199193C6000E0DC6 /* Salar de Uyuni, Bolivia.png */,
+				D268E8A8198F166800A932C9 /* heart.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D268E8F719904DD700A932C9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA05991991960A000E0DC6 /* Pass.mp3 */,
+				D268E8FA1990ED7700A932C9 /* Next.mp3 */,
+				D268E8F119904DD200A932C9 /* BackGround.mp3 */,
+				D268E8F319904DD200A932C9 /* AnotherSound.mp3 */,
+				D20D614519A6C5C600F1438F /* HighScoreSong.mp3 */,
+				D268E8F219904DD200A932C9 /* GameOver.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		D2DA042B19913555000E0DC6 /* ViewImage */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA0597199194A8000E0DC6 /* star.png */,
+			);
+			name = ViewImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D259CD71199FF3E8000987BC /* Yilmaz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D259CDA5199FF3E8000987BC /* Build configuration list for PBXNativeTarget "Yilmaz" */;
+			buildPhases = (
+				D259CD6E199FF3E8000987BC /* Sources */,
+				D259CD6F199FF3E8000987BC /* Frameworks */,
+				D259CD70199FF3E8000987BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yilmaz;
+			productName = Yilmaz;
+			productReference = D259CD72199FF3E8000987BC /* Yilmaz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D259CD95199FF3E8000987BC /* YilmazTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D259CDA8199FF3E8000987BC /* Build configuration list for PBXNativeTarget "YilmazTests" */;
+			buildPhases = (
+				D259CD92199FF3E8000987BC /* Sources */,
+				D259CD93199FF3E8000987BC /* Frameworks */,
+				D259CD94199FF3E8000987BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D259CD9C199FF3E8000987BC /* PBXTargetDependency */,
+			);
+			name = YilmazTests;
+			productName = YilmazTests;
+			productReference = D259CD96199FF3E8000987BC /* YilmazTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D268E827198EDBC800A932C9 /* GreatPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D268E85A198EDBC800A932C9 /* Build configuration list for PBXNativeTarget "GreatPlaces" */;
+			buildPhases = (
+				D268E824198EDBC800A932C9 /* Sources */,
+				D268E825198EDBC800A932C9 /* Frameworks */,
+				D268E826198EDBC800A932C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreatPlaces;
+			productName = NewProject;
+			productReference = D268E828198EDBC800A932C9 /* GreatPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D268E848198EDBC800A932C9 /* GreatPlacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D268E85D198EDBC800A932C9 /* Build configuration list for PBXNativeTarget "GreatPlacesTests" */;
+			buildPhases = (
+				D268E845198EDBC800A932C9 /* Sources */,
+				D268E846198EDBC800A932C9 /* Frameworks */,
+				D268E847198EDBC800A932C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D268E84F198EDBC800A932C9 /* PBXTargetDependency */,
+			);
+			name = GreatPlacesTests;
+			productName = NewProjectTests;
+			productReference = D268E849198EDBC800A932C9 /* GreatPlacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D268E820198EDBC800A932C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "yilmaz gursoy";
+				TargetAttributes = {
+					D259CD95199FF3E8000987BC = {
+						TestTargetID = D268E827198EDBC800A932C9;
+					};
+					D268E848198EDBC800A932C9 = {
+						TestTargetID = D268E827198EDBC800A932C9;
+					};
+				};
+			};
+			buildConfigurationList = D268E823198EDBC800A932C9 /* Build configuration list for PBXProject "GreatPlaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D268E81F198EDBC800A932C9;
+			productRefGroup = D268E829198EDBC800A932C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D268E827198EDBC800A932C9 /* GreatPlaces */,
+				D268E848198EDBC800A932C9 /* GreatPlacesTests */,
+				D259CD71199FF3E8000987BC /* Yilmaz */,
+				D259CD95199FF3E8000987BC /* YilmazTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D259CD70199FF3E8000987BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259CD91199FF3E8000987BC /* Images.xcassets in Resources */,
+				D259CD7D199FF3E8000987BC /* InfoPlist.strings in Resources */,
+				D259CD86199FF3E8000987BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D259CD94199FF3E8000987BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259CDA2199FF3E8000987BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D268E826198EDBC800A932C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DA0579199193C6000E0DC6 /* Red Beach, Panjin, China.jpg in Resources */,
+				D2DA0591199193C6000E0DC6 /* Yosemite National Park.jpg in Resources */,
+				D2DA057E199193C6000E0DC6 /* Sea Cave, Malta.jpg in Resources */,
+				D2DA059A1991960A000E0DC6 /* Pass.mp3 in Resources */,
+				D2DA057A199193C6000E0DC6 /* Rio de Janeiro.jpg in Resources */,
+				D2DA057D199193C6000E0DC6 /* Santorini, Greece.jpg in Resources */,
+				D2DA057F199193C6000E0DC6 /* Sea Cliffs, Etretat, France.jpg in Resources */,
+				D241972419A6B9C100114B4D /* Profil1.JPG in Resources */,
+				D268E844198EDBC800A932C9 /* Images.xcassets in Resources */,
+				D2DA054D199193C6000E0DC6 /* 1000 Year Old Yew Tree, West Wales.jpg in Resources */,
+				D2DA056C199193C6000E0DC6 /* Mendenhall Ice Caves, Juneau, Alaska.jpg in Resources */,
+				D2DA0555199193C6000E0DC6 /* Barcelona.jpg in Resources */,
+				D2DA0567199193C6000E0DC6 /* Hitachi Seaside Park, Japan.jpg in Resources */,
+				D2DA058A199193C6000E0DC6 /* Unknown-2.jpg in Resources */,
+				D268E8F419904DD200A932C9 /* BackGround.mp3 in Resources */,
+				D2DA0573199193C6000E0DC6 /* Pamukkale, Turkey.jpg in Resources */,
+				D2DA058D199193C6000E0DC6 /* Venice, Italy.jpg in Resources */,
+				D2DA0581199193C6000E0DC6 /* Shifen Waterfall.jpg in Resources */,
+				D2DA054F199193C6000E0DC6 /* Antelope Canyon, Arizona.jpg in Resources */,
+				D2DA0557199193C6000E0DC6 /* Bern Switzerland.jpg in Resources */,
+				D2DA0575199193C6000E0DC6 /* Paris.jpg in Resources */,
+				D2DA058F199193C6000E0DC6 /* Wind Cathedral Namibia.jpg in Resources */,
+				D2DA0576199193C6000E0DC6 /* Petra, Jordan.jpg in Resources */,
+				D2DA055A199193C6000E0DC6 /* Cherry Blossoms in Bonn, Germany.jpg in Resources */,
+				D2DA0577199193C6000E0DC6 /* Piano Bridge,China.jpg in Resources */,
+				D2DA0566199193C6000E0DC6 /* Hiller lake, Western Australia.jpg in Resources */,
+				D20D614619A6C5C600F1438F /* HighScoreSong.mp3 in Resources */,
+				D268E8F519904DD200A932C9 /* GameOver.mp3 in Resources */,
+				D2DA0558199193C6000E0DC6 /* Castillo de La Cueva, Spain.jpg in Resources */,
+				D2DA0588199193C6000E0DC6 /* Tulip Flower Fields in Netherlands.jpg in Resources */,
+				D2DA0570199193C6000E0DC6 /* Namib Desert.jpg in Resources */,
+				D2DA0578199193C6000E0DC6 /* Poland.jpg in Resources */,
+				D2DA058C199193C6000E0DC6 /* Vatican City.jpg in Resources */,
+				D2DA055B199193C6000E0DC6 /* Chittorgarh Fort, India.jpg in Resources */,
+				D2DA0565199193C6000E0DC6 /* Great Blue Hole, Belize.jpg in Resources */,
+				D268E8F619904DD200A932C9 /* AnotherSound.mp3 in Resources */,
+				D2DA0560199193C6000E0DC6 /* Galápagos Islands South America.jpg in Resources */,
+				D2DA0551199193C6000E0DC6 /* Awesome Flower Street.jpg in Resources */,
+				D2DA0593199193C6000E0DC6 /* Fingal’s Cave, Scotland.png in Resources */,
+				D2DA055F199193C6000E0DC6 /* Galapagos Islands.jpg in Resources */,
+				D2DA0582199193C6000E0DC6 /* South Africa.jpg in Resources */,
+				D268E8A9198F166800A932C9 /* heart.png in Resources */,
+				D2DA0580199193C6000E0DC6 /* Shanghai.jpg in Resources */,
+				D2DA0559199193C6000E0DC6 /* Central Park NYC.jpg in Resources */,
+				D2DA0594199193C6000E0DC6 /* Ha Long Bay, Vietnam.png in Resources */,
+				D2DA0586199193C6000E0DC6 /* Taj Mahal, Agra, India.jpg in Resources */,
+				D268E8FB1990ED7700A932C9 /* Next.mp3 in Resources */,
+				D2DA0587199193C6000E0DC6 /* The cliffs of Etretat, France.jpg in Resources */,
+				D2DA0590199193C6000E0DC6 /* Yellowstone National Park, Wyoming, USA.jpg in Resources */,
+				D2DA0561199193C6000E0DC6 /* Giant’s Causeway, Ireland.jpg in Resources */,
+				D2DA0598199194A8000E0DC6 /* star.png in Resources */,
+				D2DA057B199193C6000E0DC6 /* Ruby Falls, Chattanooga, Tennessee.jpg in Resources */,
+				D2DA0562199193C6000E0DC6 /* Giza Pyramids.jpg in Resources */,
+				D2DA0550199193C6000E0DC6 /* Aogashima Volcano, Japan.jpg in Resources */,
+				D2DA0572199193C6000E0DC6 /* Niagara Falls.jpg in Resources */,
+				D2DA057C199193C6000E0DC6 /* San Francisco.jpg in Resources */,
+				D2DA055E199193C6000E0DC6 /* Fairy Pools, Isle of Skye, Scotland.jpg in Resources */,
+				D2DA0571199193C6000E0DC6 /* Netherlands.jpg in Resources */,
+				D2DA056B199193C6000E0DC6 /* Magic Forest in Shanghai.jpg in Resources */,
+				D2DA058B199193C6000E0DC6 /* Valley of Ten Peaks.jpg in Resources */,
+				D2DA0556199193C6000E0DC6 /* Beachy Head – England.jpg in Resources */,
+				D268E836198EDBC800A932C9 /* InfoPlist.strings in Resources */,
+				D2DA056D199193C6000E0DC6 /* Mexico City.jpg in Resources */,
+				D2DA054E199193C6000E0DC6 /* Amsterdam.jpg in Resources */,
+				D2DA0585199193C6000E0DC6 /* Stairway to Heaven, Iceland.jpg in Resources */,
+				D2DA0589199193C6000E0DC6 /* Tuscany, Italy.jpg in Resources */,
+				D2DA0563199193C6000E0DC6 /* Glass Beach, California, USA.jpg in Resources */,
+				D2DA056A199193C6000E0DC6 /* Ice hotel at Sorrisniva,  Norway.jpg in Resources */,
+				D2DA0564199193C6000E0DC6 /* Glow worm cave, New Zealand.jpg in Resources */,
+				D2DA056F199193C6000E0DC6 /* Naica Mine, Mexico.jpg in Resources */,
+				D268E83F198EDBC800A932C9 /* Main.storyboard in Resources */,
+				D2DA0583199193C6000E0DC6 /* Split Pinnacle – Hunan China.jpg in Resources */,
+				D2DA0592199193C6000E0DC6 /* Big Island, Hawaii, USA.png in Resources */,
+				D2DA0596199193C6000E0DC6 /* Salar de Uyuni, Bolivia.png in Resources */,
+				D2DA0574199193C6000E0DC6 /* Panjin Red Beach, China.jpg in Resources */,
+				D2DA0595199193C6000E0DC6 /* Neuschwanstein Castle, Germany.png in Resources */,
+				D2DA058E199193C6000E0DC6 /* Vietnam.jpg in Resources */,
+				D268E880198EF0D700A932C9 /* BackGround.jpg in Resources */,
+				D2DA0553199193C6000E0DC6 /* Bahamas, Copperfield Bay.jpg in Resources */,
+				D2DA0568199193C6000E0DC6 /* Hotel La Montana Magica.jpg in Resources */,
+				D2DA0552199193C6000E0DC6 /* BackGround.jpg in Resources */,
+				D2DA056E199193C6000E0DC6 /* Mount Ararat eruption.jpg in Resources */,
+				D2DA055D199193C6000E0DC6 /* Dubai Islands.jpg in Resources */,
+				D2DA0554199193C6000E0DC6 /* Bamboo Forest, Japan.jpg in Resources */,
+				D2DA0584199193C6000E0DC6 /* St. Lucia.jpg in Resources */,
+				D2DA055C199193C6000E0DC6 /* Cinque Terre, Rio Maggiore, Italy.jpg in Resources */,
+				D2DA0569199193C6000E0DC6 /* Hvitserkur North Iceland.jpg in Resources */,
+				D241972219A6B93000114B4D /* Profil.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D268E847198EDBC800A932C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268E855198EDBC800A932C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D259CD6E199FF3E8000987BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259CD8F199FF3E8000987BC /* DetailViewController.m in Sources */,
+				D259CD8C199FF3E8000987BC /* MasterViewController.m in Sources */,
+				D259CD89199FF3E8000987BC /* Yilmaz.xcdatamodeld in Sources */,
+				D259CD83199FF3E8000987BC /* AppDelegate.m in Sources */,
+				D259CD7F199FF3E8000987BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D259CD92199FF3E8000987BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D259CDA4199FF3E8000987BC /* YilmazTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D268E824198EDBC800A932C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268E842198EDBC800A932C9 /* ViewController.m in Sources */,
+				D241972019A6AE7300114B4D /* HighPointsViewController.m in Sources */,
+				D28864D219A4DBE30020CBD2 /* FirstScreenViewController.m in Sources */,
+				D268E83C198EDBC800A932C9 /* AppDelegate.m in Sources */,
+				D268E838198EDBC800A932C9 /* main.m in Sources */,
+				D28864D819A4DEA40020CBD2 /* CreditsViewController.m in Sources */,
+				D268E87E198EEA3B00A932C9 /* Places.m in Sources */,
+				D241965219A52C9300114B4D /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D268E845198EDBC800A932C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268E857198EDBC800A932C9 /* NewProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D259CD9C199FF3E8000987BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D259CD71199FF3E8000987BC /* Yilmaz */;
+			targetProxy = D259CD9B199FF3E8000987BC /* PBXContainerItemProxy */;
+		};
+		D268E84F198EDBC800A932C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D268E827198EDBC800A932C9 /* GreatPlaces */;
+			targetProxy = D268E84E198EDBC800A932C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D259CD7B199FF3E8000987BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D259CD7C199FF3E8000987BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D259CD84199FF3E8000987BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D259CD85199FF3E8000987BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D259CDA0199FF3E8000987BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D259CDA1199FF3E8000987BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D268E834198EDBC800A932C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D268E835198EDBC800A932C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D268E83D198EDBC800A932C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D268E83E198EDBC800A932C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D268E853198EDBC800A932C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D268E854198EDBC800A932C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D259CDA6199FF3E8000987BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yilmaz/Yilmaz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yilmaz/Yilmaz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D259CDA7199FF3E8000987BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yilmaz/Yilmaz-Prefix.pch";
+				INFOPLIST_FILE = "Yilmaz/Yilmaz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D259CDA9199FF3E8000987BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreatPlaces.app/GreatPlaces";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yilmaz/Yilmaz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YilmazTests/YilmazTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D259CDAA199FF3E8000987BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreatPlaces.app/GreatPlaces";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yilmaz/Yilmaz-Prefix.pch";
+				INFOPLIST_FILE = "YilmazTests/YilmazTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		D268E858198EDBC800A932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D268E859198EDBC800A932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D268E85B198EDBC800A932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Koca (5654PE6QPB)";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewProject/GreatPlaces-Prefix.pch";
+				INFOPLIST_FILE = "NewProject/GreatPlaces-Info.plist";
+				PRODUCT_NAME = GreatPlaces;
+				PROVISIONING_PROFILE = "d789aa9f-5a12-4d14-aaf8-a79b7e5f6922";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D268E85C198EDBC800A932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Emre Koca (5654PE6QPB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewProject/GreatPlaces-Prefix.pch";
+				INFOPLIST_FILE = "NewProject/GreatPlaces-Info.plist";
+				PRODUCT_NAME = GreatPlaces;
+				PROVISIONING_PROFILE = "d789aa9f-5a12-4d14-aaf8-a79b7e5f6922";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D268E85E198EDBC800A932C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreatPlaces.app/GreatPlaces";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewProject/NewProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NewProjectTests/GreatPlacesTests-Info.plist";
+				PRODUCT_NAME = GreatPlacesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D268E85F198EDBC800A932C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreatPlaces.app/GreatPlaces";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewProject/NewProject-Prefix.pch";
+				INFOPLIST_FILE = "NewProjectTests/GreatPlacesTests-Info.plist";
+				PRODUCT_NAME = GreatPlacesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D259CDA5199FF3E8000987BC /* Build configuration list for PBXNativeTarget "Yilmaz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D259CDA6199FF3E8000987BC /* Debug */,
+				D259CDA7199FF3E8000987BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D259CDA8199FF3E8000987BC /* Build configuration list for PBXNativeTarget "YilmazTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D259CDA9199FF3E8000987BC /* Debug */,
+				D259CDAA199FF3E8000987BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D268E823198EDBC800A932C9 /* Build configuration list for PBXProject "GreatPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D268E858198EDBC800A932C9 /* Debug */,
+				D268E859198EDBC800A932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D268E85A198EDBC800A932C9 /* Build configuration list for PBXNativeTarget "GreatPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D268E85B198EDBC800A932C9 /* Debug */,
+				D268E85C198EDBC800A932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D268E85D198EDBC800A932C9 /* Build configuration list for PBXNativeTarget "GreatPlacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D268E85E198EDBC800A932C9 /* Debug */,
+				D268E85F198EDBC800A932C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D259CD87199FF3E8000987BC /* Yilmaz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D259CD88199FF3E8000987BC /* Yilmaz.xcdatamodel */,
+			);
+			currentVersion = D259CD88199FF3E8000987BC /* Yilmaz.xcdatamodel */;
+			path = Yilmaz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D268E820198EDBC800A932C9 /* Project object */;
+}
